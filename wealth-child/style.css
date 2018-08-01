@@ -46,7 +46,7 @@ a.page-scroll.vc_custom_1447646239925 {
     padding: 14px;
 }
 .get-started-text-column {
-    padding: 0 15px;
+    padding: 0 15px !important;
 }
 
 /* RESPONSIVE STYLES */
