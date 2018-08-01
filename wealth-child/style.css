@@ -14,10 +14,14 @@
 
 @import url("../wealth/style.css");
 .class-testing{color:#fff;}
-
-@media (max-width:1315px) {
-#home .container{width:100%}
+.how-it-works-icons { text-align: center !important;}
+a.page-scroll.vc_custom_1447646239925 {
+    display: inline-block;
+    text-align: center;
 }
+
+/* RESPONSIVE STYLES */
+@media (max-width:1315px) {#home .container{width:100%}}
 
 @media (max-width: 1015px) {
     .header-form.wpb_column.vc_column_container.vc_col-sm-5.vc_col-lg-offset-1.vc_col-lg-4 {
@@ -25,8 +29,6 @@
     }
     .header-content.wpb_column.vc_column_container.vc_col-sm-7.vc_custom_1533152396996.vc_custom_1533152396996 {
         width: 100%;
-    }
-    .vc_custom_1533152396996 {
         margin-top: 40px !important;
     }
     h1#header-title {
@@ -37,6 +39,14 @@
     }
 }
 
+@media (max-width:768px) {
+    .vc_custom_1531853726199 {
+        text-align: center !important;
+    }
+    .get-started-text{
+        text-align: center !important;
+    }
+}
 @media (min-width: 768px) {
     section#center-row-id div.row {
         justify-content: center;
