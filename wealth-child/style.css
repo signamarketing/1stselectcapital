@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 1015px) {
-    .header-form {
+    .header-form.wpb_column.vc_column_container.vc_col-sm-5.vc_col-lg-offset-1.vc_col-lg-4 {
         width: 100%;
     }
     .header-content.wpb_column.vc_column_container.vc_col-sm-7.vc_custom_1533152396996.vc_custom_1533152396996 {
