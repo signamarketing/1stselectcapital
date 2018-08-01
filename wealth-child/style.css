@@ -15,7 +15,7 @@
 @import url("../wealth/style.css");
 .class-testing{color:#fff;}
 
-@media (min-width: 767px) and (max-width:1200px) {
+@media (min-width: 992px) and (max-width:1300px) {
 #home .container{width:100%}
 }
 
