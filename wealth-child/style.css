@@ -48,7 +48,9 @@ a.page-scroll.vc_custom_1447646239925 {
 .get-started-text-column {
     padding: 0 15px !important;
 }
-
+.header-content {
+    margin-top: 120px !important;
+}
 /* RESPONSIVE STYLES */
 @media (max-width:1315px) {#home .container{width:100% !important}}
 
