@@ -91,7 +91,9 @@ a.page-scroll.vc_custom_1447646239925 {
     .lp-header .navbar-default.top-nav-collapse .navbar-brand > img {
         padding-top: 0px;
     }
-
+    .logged-in.admin-bar .navbar-fixed-top {
+        border: none;
+    }
 }
 @media (min-width: 768px) {
     section#center-row-id div.row {
