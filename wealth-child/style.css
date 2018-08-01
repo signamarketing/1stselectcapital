@@ -15,6 +15,10 @@
 @import url("../wealth/style.css");
 .class-testing{color:#fff;}
 
+@media (min-width: 767px) and (max-width:1200px) {
+#home .container{width:100%}
+}
+
 @media (min-width: 768px) {
     section#center-row-id div.row {
         justify-content: center;
