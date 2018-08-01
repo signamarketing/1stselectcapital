@@ -50,14 +50,14 @@ a.page-scroll.vc_custom_1447646239925 {
 }
 
 /* RESPONSIVE STYLES */
-@media (max-width:1315px) {#home .container{width:100%}}
+@media (max-width:1315px) {#home .container{width:100% !important}}
 
 @media (max-width: 1015px) {
     .header-form {
         width: 100% !important;
     }
     .header-content {
-        width: 100%;
+        width: 100% !important;
         margin-top: 40px !important;
     }
     h1#header-title {
@@ -92,7 +92,8 @@ a.page-scroll.vc_custom_1447646239925 {
     .lp-header .navbar-default.top-nav-collapse .navbar-brand > img {
         padding-top: 0px;
     }
-    .logged-in.admin-bar .navbar-fixed-top {
+    .lp-header .navbar-default {
+        background-color: transparent;
         border: none;
     }
 }
