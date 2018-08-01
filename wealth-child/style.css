@@ -46,6 +46,13 @@ a.page-scroll.vc_custom_1447646239925 {
     .get-started-text{
         text-align: center !important;
     }
+    h1#header-title {
+        text-align: center !important;
+        font-size: 50px !important;
+    }
+    section#home {
+        padding: 100px 20px !important;
+    }
 }
 @media (min-width: 768px) {
     section#center-row-id div.row {
@@ -53,5 +60,6 @@ a.page-scroll.vc_custom_1447646239925 {
         display: flex;
     }
 }
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
