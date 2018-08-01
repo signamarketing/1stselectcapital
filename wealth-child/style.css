@@ -13,6 +13,22 @@
 */
 
 @import url("../wealth/style.css");
+#header{
+    margin: 0 auto;
+    }
+    .wpb_single_image .vc_single_image-wrapper.vc_box_border_circle.vc_box_border_grey{
+        background-color:#7ac312;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover{
+        color: #7ac312!important;
+    }
+.navbar-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .class-testing{color:#fff;}
 .how-it-works-icons { text-align: center !important;}
 a.page-scroll.vc_custom_1447646239925 {
@@ -22,6 +38,15 @@ a.page-scroll.vc_custom_1447646239925 {
 #testimonial-broker.owl-carousel .owl-item {
     padding: 0 15px;
     /* font-size: 14px; */
+}
+.lp-btn-primary-mortgage {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+}
+.vc_custom_1447409871742 {
+    padding: 0 15px;
 }
 
 /* RESPONSIVE STYLES */
@@ -63,6 +88,10 @@ a.page-scroll.vc_custom_1447646239925 {
     .about-us-text {
         text-align: center !important;
     }
+    .lp-header .navbar-default.top-nav-collapse .navbar-brand > img {
+        padding-top: 0px;
+    }
+
 }
 @media (min-width: 768px) {
     section#center-row-id div.row {
