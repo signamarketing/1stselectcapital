@@ -15,8 +15,23 @@
 @import url("../wealth/style.css");
 .class-testing{color:#fff;}
 
-@media (min-width: 992px) and (max-width:1300px) {
+@media (max-width:1315px) {
 #home .container{width:100%}
+}
+
+@media (min-width: 1015px) {
+    .header-form {
+        width: 100%;
+    }
+    .header-content {
+        width: 100%;
+    }
+    h1#header-title {
+        text-align: center !important;
+    }
+    p#header-subtitle {
+        text-align: center !important;
+    }
 }
 
 @media (min-width: 768px) {
