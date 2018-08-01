@@ -19,7 +19,7 @@
 #home .container{width:100%}
 }
 
-@media (min-width: 1015px) {
+@media (max-width: 1015px) {
     .header-form {
         width: 100%;
     }
