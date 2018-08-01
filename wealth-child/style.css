@@ -45,7 +45,7 @@ a.page-scroll.vc_custom_1447646239925 {
     width: 100%;
     padding: 14px;
 }
-.vc_custom_1447409871742 {
+.get-started-text-column {
     padding: 0 15px;
 }
 
@@ -53,10 +53,10 @@ a.page-scroll.vc_custom_1447646239925 {
 @media (max-width:1315px) {#home .container{width:100%}}
 
 @media (max-width: 1015px) {
-    .header-form.wpb_column.vc_column_container.vc_col-sm-5.vc_col-lg-offset-1.vc_col-lg-4 {
-        width: 100%;
+    .header-form {
+        width: 100% !important;
     }
-    .header-content.wpb_column.vc_column_container.vc_col-sm-7.vc_custom_1533152396996.vc_custom_1533152396996 {
+    .header-content {
         width: 100%;
         margin-top: 40px !important;
     }
@@ -84,6 +84,7 @@ a.page-scroll.vc_custom_1447646239925 {
     }
     .contact-us-green-text {
         font-size: 27px !important;
+        text-align:center !important;
     }
     .about-us-text {
         text-align: center !important;
