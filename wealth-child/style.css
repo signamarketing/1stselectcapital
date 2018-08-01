@@ -13,13 +13,95 @@
 */
 
 @import url("../wealth/style.css");
-.class-testing{color:#fff;}
+#header{
+    margin: 0 auto;
+    }
+    .wpb_single_image .vc_single_image-wrapper.vc_box_border_circle.vc_box_border_grey{
+        background-color:#7ac312;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover{
+        color: #7ac312!important;
+    }
+.navbar-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.class-testing{color:#fff;}
+.how-it-works-icons { text-align: center !important;}
+a.page-scroll.vc_custom_1447646239925 {
+    display: inline-block;
+    text-align: center;
+}
+#testimonial-broker.owl-carousel .owl-item {
+    padding: 0 15px;
+    /* font-size: 14px; */
+}
+.lp-btn-primary-mortgage {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    padding: 14px;
+}
+.get-started-text-column {
+    padding: 0 15px !important;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width:1315px) {#home .container{width:100%}}
+
+@media (max-width: 1015px) {
+    .header-form {
+        width: 100% !important;
+    }
+    .header-content {
+        width: 100%;
+        margin-top: 40px !important;
+    }
+    h1#header-title {
+        text-align: center !important;
+    }
+    p#header-subtitle {
+        text-align: center !important;
+    }
+}
+
+@media (max-width:768px) {
+    .vc_custom_1531853726199 {
+        text-align: center !important;
+    }
+    .get-started-text{
+        text-align: center !important;
+    }
+    h1#header-title {
+        text-align: center !important;
+        font-size: 50px !important;
+    }
+    section#home {
+        padding: 100px 20px !important;
+    }
+    .contact-us-green-text {
+        font-size: 27px !important;
+        text-align:center !important;
+    }
+    .about-us-text {
+        text-align: center !important;
+    }
+    .lp-header .navbar-default.top-nav-collapse .navbar-brand > img {
+        padding-top: 0px;
+    }
+    .logged-in.admin-bar .navbar-fixed-top {
+        border: none;
+    }
+}
 @media (min-width: 768px) {
     section#center-row-id div.row {
         justify-content: center;
         display: flex;
     }
 }
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
