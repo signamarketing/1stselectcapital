@@ -96,10 +96,10 @@ a.page-scroll.vc_custom_1447646239925 {
         text-align: center !important;
     }
     .lp-header .navbar-default.top-nav-collapse .navbar-brand > img {
-        padding-top: 0px;
+        padding-top: 12px;
+        max-width: 100%;
     }
     .lp-header .navbar-default {
-        background-color: transparent;
         border: none;
     }
 }
