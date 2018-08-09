@@ -103,12 +103,35 @@ a.page-scroll.vc_custom_1447646239925 {
         border: none;
     }
 }
+
+h2#call-now-form-cta{
+    font-size:28px;
+}
+a#call-now-form-cta {
+    color: #2f81cc;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 33px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    display: block;
+}
 @media (min-width: 768px) {
     section#center-row-id div.row {
         justify-content: center;
         display: flex;
     }
 }
-
+@media (min-width: 400px) {
+h2#call-now-form-cta {
+    font-size: 25px;
+    font-weight: 600;
+}
+a#call-now-form-cta {
+    font-size: 30px;
+}
+}
 /* =Theme customization starts here
 ------------------------------------------------------- */
