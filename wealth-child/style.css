@@ -124,7 +124,7 @@ a#call-now-form-cta {
         display: flex;
     }
 }
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 h2#call-now-form-cta {
     font-size: 25px;
     font-weight: 600;
