@@ -118,11 +118,20 @@ a#call-now-form-cta {
     text-align: center;
     display: block;
 }
+.second-phone-number-cta-container {
+    display: flex;
+    align-items:center;
+}
+.second-phone-number-cta-container h2 {
+    margin:0px;
+}
+.second-phone-number-cta-container a {font-size: 39px; color: #7ac312; text-align: left; font-family: Montserrat; font-weight: 400; font-style: normal;}
 @media (min-width: 768px) {
     section#center-row-id div.row {
         justify-content: center;
         display: flex;
     }
+
 }
 @media (max-width: 400px) {
 h2#call-now-form-cta {
